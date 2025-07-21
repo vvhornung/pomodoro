@@ -16,11 +16,7 @@
     <div class="container">
       <img src="images/pomodoro_title.png" alt="Pomodoro Timer" class="title" />
       <hr />
-        <img
-          src="images/catSoup.gif"
-          alt="Timer Animation"
-          class="timer-gif"
-        />
+      <img src="images/catSoup.gif" alt="Timer Animation" class="timer-gif" />
       <div class="timer-section">
         <p class="timer" id="timer">30:00</p>
       </div>
@@ -29,6 +25,28 @@
         <button id="stopB" class="stop-button">Stop</button>
         <button id="reset" class="reset-button">Reset</button>
       </div>
+
+      <!-- Audio elements -->
+      <audio id="startSound" preload="auto">
+        <source src="audio/.mp3" type="audio/mpeg" />
+        <source src="audio/.wav" type="audio/wav" />
+      </audio>
+      <audio id="backgroundMusic" preload="auto" loop>
+        <source src="audio/temshop.mp3" type="audio/mpeg" />
+        <source src="audio/temshop.wav" type="audio/wav" />
+      </audio>
+      <audio id="stopSound" preload="auto">
+        <source src="audio/stop.mp3" type="audio/mpeg" />
+        <source src="audio/stop.wav" type="audio/wav" />
+      </audio>
+      <audio id="resetSound" preload="auto">
+        <source src="audio/reset.mp3" type="audio/mpeg" />
+        <source src="audio/reset.wav" type="audio/wav" />
+      </audio>
+      <audio id="endSound" preload="auto">
+        <source src="audio/end.mp3" type="audio/mpeg" />
+        <source src="audio/end.wav" type="audio/wav" />
+      </audio>
     </div>
     <script src="app.js"></script>
   </body>
