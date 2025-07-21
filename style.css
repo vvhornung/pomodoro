@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+}
+
+.timer {
+  font-family: "Winky Rough", sans-serif;
+  font-size: 8rem;
+  color: #121212;
+}
+
+.timer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.timer-gif {
+  width: 100px;
+  height:150px;
+
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.start-button {
+  background-image: url("images/startbutton.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  width: 120px;
+  height: 60px;
+  color: transparent;
+  transition: background-image 0.3s ease;
+}
+
+.start-button:hover {
+  background-image: url("images/startbutton2.png");
+}
+
+.stop-button {
+  background-image: url("images/stop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  height: 60px;
+  color: transparent;
+  transition: background-image 0.3s ease;
+}
+
+.stop-button:hover {
+  background-image: url("images/stop2.png");
+}
+
+.reset-button {
+  background-image: url("images/reset.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  height: 60px;
+  color: transparent;
+  transition: background-image 0.3s ease;
+}
+
+.reset-button:hover {
+  background-image: url("images/reset2.png");
+}
