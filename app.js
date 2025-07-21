@@ -28,7 +28,7 @@ const startTimer = () => {
         clearInterval(interval);
         isRunning = false;
         alert("¡Tiempo terminado!");
-        timeLeft = 1500; // Reset to 25 minutes
+        timeLeft = 2000; // Reset to 25 minutes
         updateTimer();
       }
     }, 1000);
@@ -43,7 +43,7 @@ const stopTimer = () => {
 const resetTimer = () => {
   clearInterval(interval);
   isRunning = false;
-  timeLeft = 1500; // Reset to 25 minutes
+  timeLeft = 2000; // Reset to 30 minutes
   updateTimer();
 };
 
